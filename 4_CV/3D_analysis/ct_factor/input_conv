@@ -1,0 +1,7 @@
+300.d0 1200.d0 4.d0                               !# system temp, cv temp, biasfactor 
+1000000 XXXX                                         !# t_min, t_max
+-3.1415926d0 3.1415926d0 6.2831852000000007E-002  !# grid_min1, grid_max1, grid_width1
+2.d0 40.d0 0.38d0                                 !# grid_min2, grid_max2, grid_width2
+2.d0 40.d0 0.38d0                                 !# grid_min3, grid_max3, grid_width3
+2.d0 40.d0 0.38d0                                 !# grid_min4, grid_max4, grid_width4
+10 500                                            !# COLVAR print freq, HILLS print freq

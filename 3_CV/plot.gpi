@@ -1,0 +1,6 @@
+set xlabel "Time (in ns)" font ', 15'
+set border lw 1.5
+set xtics font ', 15'
+set ytics font ', 15'
+set ylabel "{/Symbol D} F kcal/mol" font ', 15' offset -2,0
+p "result_tiufed.dat" us ($1/100000):2 w lp title "TI-UFED" lw 2, "result_tidafed.dat" us ($1/100):4 w lp title "TI-dAFED" lw 2, "result_ti.dat" us ($1/100):4 w lp lw 2 title "TI" 
